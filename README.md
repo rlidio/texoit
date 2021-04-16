@@ -4,6 +4,11 @@ Execute jar file: java -jar texoit-0.0.1-SNAPSHOT.jar {path of file}
 
 Example: java -jar texoit-0.0.1-SNAPSHOT.jar movilist.csv
 
+OR
+
+mvn spring-boot:run -Dspring-boot.run.arguments="{path of file}"
+
+
 Integration teste was used API SpringBootTest
 
 Link path after start application: 
